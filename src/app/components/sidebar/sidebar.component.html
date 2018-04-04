@@ -1,0 +1,20 @@
+<div class="logo">
+  <a href="#" class="simple-text">
+      <div class="logo-img">
+          <img class="img-rounded" src="/assets/img/cj.png"/>
+      </div>
+      Khureltsooj
+  </a>
+</div>
+<div class="sidebar-wrapper">
+  <div class="nav-container">
+      <ul class="nav">
+          <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
+              <a  [routerLink]="[menuItem.path]">
+                  <i class="material-icons">{{menuItem.icon}}</i>
+                  <p>{{menuItem.title}}</p>
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
