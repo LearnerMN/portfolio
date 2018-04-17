@@ -99,7 +99,7 @@ export const PROJECT: ProjectInfo[] = [
   { 
     title: "Trump Wall Game",
     img: "trump_wall.png",
-    description: "Arcade game for iOS and Android platform,  at Unimedia",
+    description: "Trump wall is arcade game for iOS and Android platform, at Unimedia",
     links: [
       {
         path: "#",
@@ -120,12 +120,12 @@ export const PROJECT: ProjectInfo[] = [
     description: "I teamed up with GB. We innovated NBA daily fantasy.",
     links: [
       {
-        path: "#",
+        path: "https://github.com/LearnerMN/nba_fantasy/tree/master/fan_nba_android",
         icon: "fa fa-android",
         color: "btn-danger"
       },
       {
-        path: "#",
+        path: "https://github.com/LearnerMN/nba_fantasy",
         icon: "fa fa-github",
         color: "btn-default"
       },
@@ -218,7 +218,7 @@ export const PROJECT: ProjectInfo[] = [
     description: "Clone IQ game of boat and matches problems on the cross platform.",
     links: [
       {
-        path: "#",
+        path: "https://github.com/LearnerMN/puzzle_game",
         icon: "fa fa-github",
         color: "btn-default"
       }
