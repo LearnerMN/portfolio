@@ -78,6 +78,7 @@ export const PROJECT: ProjectInfo[] = [
     ],
     technologies:["Android", "iOS", "Web-based", "QRCode"]
   },
+  
   { 
     title: "Naishyoku Member",
     img: "naishyoku_user.png",
@@ -94,12 +95,12 @@ export const PROJECT: ProjectInfo[] = [
         color: "btn-danger"
       }
     ],
-    technologies:["Android", "iOS", "Firebase Notification", "Web-based"]
+    technologies:["Android", "iOS", "FCM | Firebase", "Web-based"]
   },
   { 
     title: "Trump Wall Game",
     img: "trump_wall.png",
-    description: "Trump wall is arcade game for iOS and Android platform, at Unimedia",
+    description: "Trump wall is arcade game for iOS and Android platform using Cocos2d-x, at Unimedia",
     links: [
       {
         path: "#",
