@@ -198,7 +198,7 @@ export const PROJECT: ProjectInfo[] = [
         color: "btn-warning"
       }
     ],
-    technologies:["WPF", "MySQL", ".NET", "DevExpress"]
+    technologies:["Laravel","WPF", "MySQL", ".NET", "DevExpress", "PHP"]
   },
   { 
     title: "Library System",
