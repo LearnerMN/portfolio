@@ -8,17 +8,18 @@
 </div>
 <div class="sidebar-wrapper">
   <div class="nav-container">
-      <ul class="nav">
+      
+      <ul class="nav flex-column">
           <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
-              <a  [routerLink]="[menuItem.path]">
+              <a  [routerLink]="[menuItem.path]" class="nav-link">
                   <i class="material-icons">{{menuItem.icon}}</i>
-                  <p>{{menuItem.title}}</p>
+                  {{menuItem.title}}
               </a>
           </li>
           <li class="nav-item">
-            <a href="https://drive.google.com/file/d/1G0gbBxPTjZUfUSQFq39imGZit23DDVW1/view" target="_blank">
+            <a href="https://drive.google.com/file/d/1G0gbBxPTjZUfUSQFq39imGZit23DDVW1/view" target="_blank" class="nav-link">
                 <i class="fa fa-file-text"></i>
-                <p>Resume</p>
+                Resume
             </a>
           </li>
       </ul>
